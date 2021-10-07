@@ -46,6 +46,7 @@ public class ExampleMod
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        salut
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
